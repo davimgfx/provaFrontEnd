@@ -1,0 +1,396 @@
+/* import the fonts Roboto and Alatsi */
+@import url("https://fonts.googleapis.com/css2?family=Alatsi&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
+  list-style-type: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: black;
+}
+
+#header {
+  display: flex;
+  gap: 0.5rem;
+  position: relative;
+}
+
+.logo-div {
+  display: flex;
+  z-index: 10;
+}
+
+#logo {
+  width: 23.6rem;
+  height: 6.6257rem;
+  background: white;
+}
+
+#triangle-white {
+  width: 0;
+  height: 0;
+  border-right: 4rem solid transparent; /* Lado direito transparente */
+  border-top: 6.4257rem solid white;
+}
+
+.bar-hero {
+  position: absolute;
+  width: 530px;
+  height: 1.485px;
+  background: #717171;
+  top: 6.4257rem;
+  left: 23rem;
+}
+.navbar {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2.5273rem;
+  font-weight: 400;
+  line-height: normal;
+  background: rgba(51, 51, 51, 0.5);
+  transform: translateX(-4.5rem);
+  padding-left: 5rem;
+  cursor: pointer;
+}
+
+#triangle-gray {
+  width: 0;
+  height: 0;
+  border-right: 4rem solid transparent;
+  border-top: 6.4257rem solid rgba(51, 51, 51, 0.5);
+  transform: translateX(-5rem);
+}
+
+#hero {
+  display: flex;
+  padding-left: 4.369rem;
+}
+
+.text-hero-h1 {
+  color: #fff;
+  font-family: Alatsi;
+  font-size: 9.51rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 86.875rem;
+  height: 24.032rem;
+}
+
+.text-hero-p-red {
+  color: #8d0915;
+  font-family: Roboto;
+  font-size: 3.0843rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 1.2rem;
+}
+
+.text-hero-p {
+  color: #fff;
+  font-family: Roboto Condensed;
+  font-size: 2.5703rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 72.61rem;
+  height: 15.6786rem;
+}
+
+.form-hero {
+  margin-top: 2.2rem;
+  width: 1490.754px;
+  height: 156.786px;
+  display: flex;
+  align-items: center;
+  border-radius: 2rem;
+  background: rgba(40, 45, 48, 0.5);
+  padding-left: 1.285rem;
+  gap: 1.414rem;
+  margin-left: -1rem;
+}
+
+.form-hero div p {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 1.7992rem;
+  transform: translateY(-1.671rem);
+}
+
+.form-hero div input {
+  width: 237.749px;
+  height: 53.976px;
+  border-radius: 12.851px;
+  border: 3.855px solid #262b2f;
+  background: transparent;
+}
+
+.form-hero button {
+  width: 237.749px;
+  height: 70.682px;
+  border-radius: 2rem;
+  font-size: 2.3132rem;
+  background: #000000;
+  color: white;
+  margin-left: 2.1rem;
+  cursor: pointer;
+}
+
+.img-hero {
+  width: 900px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.retangle {
+  width: 100%;
+  background-color: #000000;
+  height: 5rem;
+  z-index: 15;
+  position: relative;
+}
+
+#models {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.text-models-h2 {
+  color: #fff;
+  font-family: Alatsi;
+  font-size: 8.2248rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 3.3rem;
+}
+
+.bar-models {
+  width: 548.752px;
+  height: 1.285px;
+  background: #717171;
+  margin-top: 3.8rem;
+}
+
+.article-motorcycle-1 {
+  margin-top: 7rem;
+  display: flex;
+  align-items: flex-start;
+  width: 160rem;
+}
+
+.article-motorcycle-1:last-child{
+  margin-top: 14.5rem;
+}
+.article-motorcycle-2 {
+  margin-top: 14.5rem;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  width: 160rem;
+}
+
+.motorcycle {
+  display: flex;
+}
+
+.image-moto {
+  background-color: #28212140;
+  width: 663px;
+  height: 350px;
+  padding-top: 1rem;
+}
+
+.triangle-moto-1 {
+  border-right: 150px solid transparent;
+  border-top: 350px solid #28212140;
+  width: 0px;
+  height: 0px;
+}
+
+.triangle-moto-2 {
+  border-left: 150px solid transparent;
+  border-top: 350px solid #28212140;
+  width: 0px;
+  height: 0px;
+}
+
+.text-article {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+}
+
+.text-article-h3 {
+  color: #fff;
+  text-align: center;
+  font-family: Alatsi;
+  font-size: 4.8rem;
+}
+
+.text-article-p {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 2.3rem;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 11rem;
+  margin-top: 3rem;
+}
+
+.text-features-paragraph {
+  margin-top: 1.5rem;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 2.3rem;
+  display: flex;
+  justify-items: center;
+  gap: 2rem;
+  position: relative;
+}
+
+.text-features-paragraph-1 {
+  width: 85rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.text-features-paragraph-2 {
+  width: 75rem;
+  background-color: #949494;
+  color: #0a0909;
+  padding: 2.4rem 5rem;
+}
+
+.text-features-paragraph-2 ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem 0;
+}
+
+.logo-footer {
+  position: absolute;
+  bottom: 1.3rem;
+  right: 2.5rem;
+}
+
+/* BREAKPOINTS */
+@media (max-width: 1700px) {
+  .text-hero-p {
+    width: 60rem;
+    font-size: 2.2rem;
+  }
+}
+@media (max-width: 1640px) {
+  #hero {
+    padding-left: 0;
+  }
+  .retangle {
+    display: none;
+  }
+  .text-hero-p {
+    width: 60rem;
+    font-size: 2.2rem;
+  }
+  #hero {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .text-hero {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .img-hero {
+    display: none;
+  }
+  .form-hero {
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    padding: 0 3rem;
+  }
+  .article-motorcycle-1 {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 2rem;
+    width: auto;
+  }
+  .article-motorcycle-2 {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 2rem;
+    width: auto;
+  }
+  .text-article-p {
+    width: 60rem;
+    text-align: center;
+  }
+  .image-moto {
+    background-color: transparent;
+  }
+  .triangle-moto-1 {
+    display: none;
+  }
+  .triangle-moto-2 {
+    display: none;
+  }
+  .text-features-paragraph {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+  }
+  .logo-footer {
+    transform: translateX(-8rem);
+  }
+}
+
+@media (max-width: 1200px) {
+  .text-hero-h1 {
+    font-size: 6rem;
+    height: auto;
+  }
+  .text-models-h2 {
+    font-size: 5rem;
+  }
+  .text-article-h3 {
+    font-size: 3rem;
+  }
+
+  .text-feature-p {
+    font-size: 2rem;
+  }
+}
